@@ -1,37 +1,5 @@
 <body>
-    <div class="hero">
-    <nav class="navbar">
-    <a href="#" class="logo"></a>
-    <ul class="nav-menu">
-         
-        
-        <li class="nav-item">
-            <a href="#" class="nav-link">Merchant</a>
-        </li>
-
-        <li class="nav-item">
-            <a href="#" class="nav-link">FAQ</a>
-        </li>
-
-        <li class="nav-item">
-            <a href="#" class="nav-link">Sign Up</a>
-        </li>
-
-        <li class="nav-item">
-            <a href="#" class="nav-link">Login</a>
-        </li>
-
-        <li class="nav-item">
-            <a href="#" class="nav-link nav-link2">Buy electricity</a>
-        </li>
-    </ul>
-
-    <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-</nav>
+    
     <div class="container">
         <h1>Buy Electricity from the comfort of your home</h1>
         <h3>Enter your phone number to begin</h3>
@@ -122,18 +90,7 @@
             @saniusmangombe
         </div>
         </div>
-
-        <div class="container3 box2">
-            <p>It's been nice using buypower to purchase units.
-            It's convenient for my family and I to buy units without the stress of going out to buy more.
-            </p>
-
-            <div class="first">
-            <img src='https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg' />
-            @adilmarghadi1
-        </div>
-
-        </div>
+ 
 
         <div class="container3 box2">
             <p>It's been nice using buypower to purchase units.
