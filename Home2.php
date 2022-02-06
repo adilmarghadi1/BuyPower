@@ -4,12 +4,12 @@ include 'navbar2.php';
 ?>
 
 <body>
-    <div class="container">
-        <img src="http://www.one.org.ma/FR/Projet_Simulation/img/Logo_crc.jpg" class='first' alt='img1' />
-        <img src="http://www.one.org.ma/FR/Projet_Simulation/img/onee-logo.png" class="second" alt='logo' />
+    // <div class="container">
+    //     <img src="http://www.one.org.ma/FR/Projet_Simulation/img/Logo_crc.jpg" class='first' alt='img1' />
+    //     <img src="http://www.one.org.ma/FR/Projet_Simulation/img/onee-logo.png" class="second" alt='logo' />
 
         
-    </div>
+    // </div>
 
     <div class="container2">
         <h1>Facture d'électricité simulée	</h1>
@@ -65,7 +65,7 @@ include 'navbar2.php';
                 return $data;
               }
         ?>
- 
+        
         <form method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="container3">
             <h3>Ancien index : </h3>
@@ -81,7 +81,7 @@ include 'navbar2.php';
 
         <div class="container5">
             <h3>Calib : </h3>
-            <select name="select1">
+            <select name="calibe">
             <option value="Calibe" selected disabled hidden>Calibe</option>
                 <option value="5-10">5-10</option>
                 <option value="15-20">15-20</option>
@@ -99,21 +99,31 @@ include 'navbar2.php';
             </select><span class="error">* <?php echo $filErr;?></span>
         </div>
         <div class="btn1">
-             <button type="submit">Submit</button>
+             <input type="submit" value='submit'>
         </div>
        
         </form>
 
         <?php
-echo "<h2>Your Input:</h2>";
-echo $ancien;
-echo "<br>";
-echo $nouveau;
-echo "<br>";
-echo $select1;
-echo "<br>";
-echo $fil;
-echo "<br>";
+          $ancien = $_POST['ancien'];
+          $nouveau = $_POST['nouveau'];
+          $calibe = $_POST['calibe'];
+
+          if (ancien !=='' || $nouveau !=='' || $calibe !=='') {
+               $final = $nouveau - $ancien;
+               echo $final;
+          }
+           
+        
+        echo "<h2>Your Input:</h2>";
+        echo $ancien;
+        echo "<br>";
+        echo $nouveau;
+        echo "<br>";
+        echo $select1;
+        echo "<br>";
+        echo $fil;
+        echo "<br>";
 ?>
 
         
