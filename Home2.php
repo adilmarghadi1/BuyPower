@@ -30,7 +30,7 @@ include 'navbar2.php';
         $Trn5 = 510 * $Tarifs["T5"];
         $tva = 14;
         $tambre = 0.45;
-        $calibre = array( "calibreMin" => 22.65, "calibreMoyen" => 37.05, "calibreMax" => 46.20);
+        $calibre = array( "calibre1" => 22.65, "calibre2" => 37.05, "calibre3" => 46.20);
       
     ?>
     
@@ -56,7 +56,7 @@ include 'navbar2.php';
 
         $Table = array();
         array_push($Table,$tranche1,$tranche2,$tranche3,$tranche4,$tranche5,$tranche6);
-        $calibre = array( "calibreMin" => 22.65, "calibreMoyen" => 37.05, "calibreMax" => 46.20);
+        $calibre = array( "calibre1" => 22.65, "calibre2" => 37.05, "calibre3" => 46.20);
         $max ;
         $min ;  
         $moyen; 
@@ -122,13 +122,13 @@ include 'navbar2.php';
 
             }
               if($CalibreType == "min"){
-                 $TypeCalibre =   $calibre["calibreMin"];
+                 $TypeCalibre =   $calibre["calibre1"];
               }
               elseif($CalibreType == "moyen"){
-                  $TypeCalibre = $calibre["calibreMoyen"];
+                  $TypeCalibre = $calibre["calibre2"];
               }
               elseif($CalibreType == "max"){
-                  $TypeCalibre =  $calibre["calibreMax"];
+                  $TypeCalibre =  $calibre["calibre3"];
               }
             foreach($TotaleHT as $key => $value)
             {
@@ -148,7 +148,7 @@ include 'navbar2.php';
  
  
  
-  <br><br><div class="container11">
+   <br><br><div class="container11">
     <form  method="POST">
           <label for="fname">Nouvel index</label>
           <input type="text" id="fmax" name="max" placeholder="Max..">
@@ -325,6 +325,4 @@ include 'navbar2.php';
         
   </iframe>
  
-<script src="script.js"></script>
-</body>
-
+<script src="scrip
