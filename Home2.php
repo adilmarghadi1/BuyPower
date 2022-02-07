@@ -148,7 +148,9 @@ include 'navbar2.php';
  
  
  
-   <br><br><div class="container11">
+   <br><br>
+   git add .
+   <div class="container11">
     <form  method="POST">
           <label for="fname">Nouvel index</label>
           <input type="text" id="fmax" name="max" placeholder="Max..">
