@@ -19,12 +19,13 @@
         <li class="nav-item">
             <a href="#" class="nav-link">Login</a>
         </li>
-
+ 
         <li class="nav-item">
             <a href="Home2.php" class="nav-link nav-link2">Buy electricity Now</a>
         </li>
     </ul>
 
+        
     <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>

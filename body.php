@@ -8,9 +8,10 @@
                 <input type="tel" id="phoneInput" autocomplete="off" placeholder="0000-000-000" name="phone" required="">
     </div>
     <div class="btn1">
+        
         <a href="Home2.php" class='btn101'>Buy electricity Now </a>
     </div>
-        
+         
             </form>
         <h2>Need help? Call <a href="tel:0708700319">0708700319</a></h2>
     </div>
