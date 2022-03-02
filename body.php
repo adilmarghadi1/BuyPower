@@ -8,7 +8,7 @@
                 <input type="tel" id="phoneInput" autocomplete="off" placeholder="0000-000-000" name="phone" required="">
     </div>
     <div class="btn1">
-        <button type="submit">Buy electricity   </button>
+        <a href="Home2.php" class='btn101'>Buy electricity Now </a>
     </div>
         
             </form>
@@ -92,16 +92,7 @@
         </div>
  
 
-        <div class="container3 box2">
-            <p>It's been nice using buypower to purchase units.
-            It's convenient for my family and I to buy units without the stress of going out to buy more.
-            </p>
-
-            <div class="first">
-            <img src='https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg' />
-            @adildev
-        </div>
-        </div>
+         
         
         
 

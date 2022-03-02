@@ -149,7 +149,6 @@ include 'navbar2.php';
  
  
    <br><br>
-   git add .
    <div class="container11">
     <form  method="POST">
           <label for="fname">Nouvel index</label>

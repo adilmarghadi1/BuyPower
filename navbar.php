@@ -21,7 +21,7 @@
         </li>
 
         <li class="nav-item">
-            <a href="Home2.php" class="nav-link nav-link2">Buy electricity</a>
+            <a href="Home2.php" class="nav-link nav-link2">Buy electricity Now</a>
         </li>
     </ul>
 

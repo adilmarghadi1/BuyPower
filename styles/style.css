@@ -46,7 +46,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('https://buypower.ng/img/bg-woman-phone-dog.jpg');
-    height: 91vh;
+    height: 100vh;
     margin-top: -125px;
     background-position: center center;
     padding-top: 150px;
@@ -113,7 +113,7 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background-color: #1C1E27;
         position: fixed;
         transition: all 0.4s ease-out;
@@ -196,7 +196,7 @@ body {
 }
 
 
-.container button {
+.container .btn1 {
     width: 380px;
     font-size: 20px;
     color: #fff;
@@ -208,6 +208,11 @@ body {
     border-radius: 3px;
     border: 1px solid #8ca23b;
     background-color: #8ca23b;
+}
+
+.btn101 {
+    color:white;
+    text-decoration:none;
 }
 
 .container h2 {
@@ -264,7 +269,13 @@ body {
         width: 250px;
     }
 
-    .container button {
+            .container .btn1 {
+    width: 250px;
+                display:block;
+                margin:10px auto;
+}
+
+    .container a {
         width: 250px;
     }
 
@@ -298,7 +309,7 @@ body {
 
 @media screen and (max-width:700px) {
     .hero {
-        height: 110vh;
+        height: 130vh;
     }
 }
 
